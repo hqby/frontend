@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-loader": "^8.2.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "less-loader": "^10.2.0",
+    "mint-ui": "^2.2.13",
+    "mockjs": "^1.0.1-beta3",
+    "mui": "0.0.1",
+    "vue": "^2.5.10",
+    "vue-router": "^3.0.1"
+  },
+  "name": "vuedemonocli",
+  "version": "1.0.0",
+  "description": "nocli",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.19.1",
+    "vue-loader": "^15.0.0",
+    "vue-template-compiler": "^2.5.10",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --open  --port 8080 --hot --host 127.0.0.1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
